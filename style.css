@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', 'Merriweather Sans', sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+  background: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: normal;
+  padding: 20px;
+  letter-spacing: 0.1em;
+  color: rgba(229, 177, 58, 1);
+  border-bottom: solid 2px rgb(229, 177, 58, 1);
+}
+
+.select-section {
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: rgba(229, 177, 58, 1);
+  font-family: swtitle, Arial;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 10px;
+}
+
+.select-section button {
+  font-size: 18px;
+  background-color: black;
+  box-shadow: 0 0 5px rgba(229, 177, 58, 1);
+  color: rgba(229, 177, 58, 1);
+  margin-left: 10px;
+  border: 10;
+  padding: 9px;
+}
+
+.select-section button:hover,
+button:focus {
+  box-shadow: 0 0 0px 2px rgba(229, 177, 58, 1) inset;
+  cursor: pointer;
+}
+
+.content {
+  display: none;
+}
+
+.content-section {
+  margin: 40px;
+  display: block;
+  color: rgba(229, 177, 58, 1);
+  display: grid;
+}
+
+p {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 10px;
+  text-align: Center;
+  color: #51422e;
+}
+
+span,
+hr {
+  color: rgba(229, 177, 58, 1);
+}
